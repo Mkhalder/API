@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PostAPI" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-10T11:52:12" hostname="DESKTOP-KCCH660" time="0.746">
+  <properties/>
+  <testcase name="postMethodCall2" classname="PostAPI" time="0.746"/>
+  <system-out><![CDATA[HTTP/1.1 201 Created
+Date: Sat, 10 Jun 2023 11:52:12 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"54-HfWnGBK8iNFX8xxKnLtGXBkZ440"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ewu6b%2FdpMTTXfGgZltVZNR7uDcJgR8ciZTz7dqaoRGY03P%2FLiPtT8EriETy%2FUfc0V8danyZc9DRWFSpJL5RwiSJf0EKjDGJ7LN2tnBDTER9cLC9KMQiv2Aj6rg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7d5168249e9418be-SIN
+
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "925",
+    "createdAt": "2023-06-10T11:52:12.524Z"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
